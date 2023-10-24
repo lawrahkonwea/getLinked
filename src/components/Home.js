@@ -67,7 +67,7 @@ export const Homepage = () => {
               clear as day: to shape the future. Whether you're a coding genius, a
               design maverick, or a concept wizard, you'll have the chance to transform
               your ideas into reality. Solving real-world problems, pushing the boundaries
-              of technology, and creating solutions that can change the world,
+              of technology, and creating solutions that can change the world to a better,
               that's what we're all about!</h4>
             <div className='lensflare'><img src={Lensflare} /></div>
           </div>
