@@ -1,24 +1,26 @@
-import React from 'react';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Homepage } from './components/Home';
+import React, { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence } from "framer-motion";
 import './App.css';
-import { Header } from './components/Header';
+import Home from './routes/home';
+import Contact from './routes/contact';
+import Registration from './routes/registration';
 
-const App = () => {
+export default function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
-    <>
-    <Header />
-    <Homepage />
-  {/* <BrowserRouter>
-  <Routes>
-    <Route path="/" element={<Homepage />}  />
-    <Route path="/timeline" element={<Timeline />}  />
-    <Route path="/overview" element={<Overview />}  />
-    <Route path="/faqs" element={<Faqs />}  />
-    <Route path="/register" element={<Register />}  />
-  </Routes>
-  </BrowserRouter> */}
-    </>
-  );
+    <AnimatePresence>
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path='/contact-us' element={<Contact />} />
+        <Route path='/registration' element={<Registration />} />
+      </Routes>
+    </AnimatePresence>
+  )
 }
-export default App;
+
