@@ -1,6 +1,6 @@
 import React from "react";
 import getlink from "../assets/getlinked.png";
-import './Header.css';
+
 
 export const Header = () => {
   return (
