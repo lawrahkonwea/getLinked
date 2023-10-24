@@ -1,0 +1,99 @@
+
+.home-container {
+  flex-wrap: wrap;
+}
+
+
+.head-text {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.home {
+  /* display: flex;
+  justify-content: space-around; */
+  /* padding: 45px 0; */
+  position: relative;
+  /* mix-blend-mode: multiply; */
+
+}
+
+.title-div-cont {
+  display: flex;
+  justify-content: space-around;
+  /* width: 700px; 
+  height: 236px; */
+  /* top: 293px;  */
+  /* margin-left: 50px; */
+}
+
+.participate {
+  color: #ffffff;
+  
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.title {
+  width: 700px;
+  height: 236px;
+  top: 293px;
+  /* margin-left: 128px; */
+
+}
+
+.glassesman {
+  width: 100%;
+  height: 715px;
+  /* top: 267px; */
+  top: 0;
+  position: relative;
+  z-index: 1;
+ mix-blend-mode:luminosity;
+ opacity: 0.9;
+  /* left: 715px; */
+}
+
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  z-index: 2;
+  
+}
+
+.vector {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.home-button {
+  width: 172px;
+  color: #ffffff;
+  height: 53px;
+  top: 644px;
+  left: 132px;
+  border-radius: 4px;
+  margin-top: 30px;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+.countdown {
+  margin-top: 60px;
+}
