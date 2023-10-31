@@ -28,20 +28,20 @@ export default function Overview() {
 
     return (
         <div className='section-plain border-bt' id='overview'>
-            <div className='flex flex-col desktop:flex-row items-center w-full pl-[13.02%] pr-[10.84%] desktop:pt-[62px] pt-[29px] desktop:pb-[78px] pb-12'>
-                <div className='desktop:w-[40%] w-full idea flex flex-col'>
-                    <div className='flex desktop:gap-8 items-center '>
-                        <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower desktop:w-[21px] w-[11px] desktop:h-[25px] h-[13px]'/>
-                        <img src={Idea} alt='big idea' className='desktop:w-[490px] w-full h-full object-contain' />
+            <div className='flex flex-col lg:flex-row items-center w-full pl-[13.02%] pr-[10.84%] lg:pt-[62px] pt-[29px] lg:pb-[78px] pb-12'>
+                <div className='lg:w-[40%] w-full idea flex flex-col'>
+                    <div className='flex lg:gap-8 items-center '>
+                        <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower lg:w-[21px] w-[11px] lg:h-[25px] h-[13px]'/>
+                        <img src={Idea} alt='big idea' className='lg:w-[490px] w-full h-full object-contain' />
                     </div>
                 </div>
-                <div className={`${scrollY ? 'animate__slideInUp' : ''} animate__animated desktop:flex-1 desktop:ml-[109px] w-full`} ref={ref}>
-                    <div className='flex items-center desktop:gap-[97px] gap-[18px]'>
-                        <h1 className='desktop:text-[32px] text-[20px] font-bold font-clash-display desktop:w-[420px] w-full text-center desktop:text-start'>Introduction to getlinked <br /><span className='text-secondary'>tech Hackathon 1.0</span></h1>
-                        <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower desktop:w-[21px] w-2 desktop:h-[25px] h-[10px] absolute right-[16%] mt-[5%]'/>
+                <div className={`${scrollY ? 'animate__slideInUp' : ''} animate__animated lg:flex-1 lg:ml-[109px] w-full`} ref={ref}>
+                    <div className='flex items-center lg:gap-[97px] gap-[18px]'>
+                        <h1 className='lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[420px] w-full text-center lg:text-start'>Introduction to getlinked <br /><span className='text-secondary'>tech Hackathon 1.0</span></h1>
+                        <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower lg:w-[21px] w-2 lg:h-[25px] h-[10px] absolute right-[16%] mt-[5%]'/>
                     </div>
-                    <div className='desktop:mt-4 mt-[9px]'>
-                        <p className='desktop:text-[14px] text-[13px] text-center desktop:text-start leading-[27.5px]'>
+                    <div className='lg:mt-4 mt-[9px]'>
+                        <p className='lg:text-[16px] text-[13px] text-center lg:text-start leading-[27.5px]'>
                             Our tech hackathon is a melting pot of visionaries, and its purpose is as
                             clear as day: to shape the future. Whether you're a coding genius, a 
                             design maverick, or a concept wizard, you'll have the chance to transform 

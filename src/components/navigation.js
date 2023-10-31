@@ -33,7 +33,7 @@ export default function Navigation() {
         <>
             <div className={`nav px-[8.4%] pt-[63px] pb-[25px] ${scrolled ? 'nav-fixed' : ''}`}>
                 <div className='lg:w-[47%]'> 
-                    <h1 onClick={() => navigate('/')} className='font-clash-display cursor-pointer text-[15px] mid:text-[36px] font-bold'>get<span className='text-secondary'>linked</span></h1>
+                    <h1 onClick={() => navigate('/')} className='font-clash-display cursor-pointer text-[30px] mid:text-[50px] font-bold'>get<span className='text-fuchsia-500'>linked</span></h1>
                 </div>
                 <div className='hidden flex-1 lg:flex gap-[121px] items-center'>
                     <div className='flex gap-[56px]'>

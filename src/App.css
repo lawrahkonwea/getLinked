@@ -72,9 +72,10 @@ body {
     url('./assets/Purple-Lens-Flare-PNG.png'), 
     url('./assets/Purple-Lens-Flare-PNG\ \(1\).png');
   background-repeat: no-repeat;
-  background-position: right top;
+  /* background-position: right top; */
   background-size: auto;
   background-blend-mode: hard-light;
+  
 }
 
 .section-plain {
@@ -89,11 +90,11 @@ body {
 }
 
 .nav-fixed {
-  position: fixed !important;
+  position: fixed;
   top: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.32);
-  backdrop-filter:saturate(180%) blur(20px);
+  backdrop-filter:saturate(250%) blur(40px);
   z-index: 1000;
 }
 
