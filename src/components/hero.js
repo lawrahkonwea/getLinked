@@ -32,7 +32,7 @@ export default function Hero() {
                 <div className='lg:ml-[8.4%] lg:mt-10 mt-[14px] lg:absolute'>
                     <h1 className='text-center lg:text-start text-[32px] lg:text-[80px] font-bold font-clash-display heading'>getlinked Te<span>c</span>h</h1>
                     <div className='flex items-center justify-center lg:justify-start -mb-[5px]'>
-                        <h1 className='text-[32px] lg:text-[80px] font-bold font-clash-display'>Hackathon <span className='text-secondary'>1.0</span></h1>
+                        <h1 className='text-[32px] lg:text-[80px] font-bold font-clash-display text-fuchsia-500'>Hackathon <span className='text-secondary'>1.0</span></h1>
                         <img src={Chain} alt='chain' className='mix-blend-lighten lg:w-fit lg:h-fit w-8 h-8'/>
                         <img src={Flames} alt='flames' className='lg:w-[58px] w-[22.12px] lg:h-[58px] h-[22.12px]'/>
                     </div>

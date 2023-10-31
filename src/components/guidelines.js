@@ -21,7 +21,7 @@ export default function Guidelines() {
             <div className='flex flex-col-reverse lg:flex-row items-center w-full px-12 lg:pl-[11.6%] lg:pr-[6.58%] lg:py-1 pb-[19px]'>
                 <div className={`${scrollY ? 'animate__slideInUp' : ''} animate__animated flex-1 mt-[10px] lg:mt-0`} ref={ref}>
                     <div className='flex flex-col lg:flex-row lg:gap-[88px]'>
-                        <h1 className='text-center lg:text-start lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[170px]'>Rules and <br /><span className='text-secondary'>Guidelines</span></h1>
+                        <h1 className='text-center lg:text-start lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[170px]'>Rules and <br /><span className=' text-fuchsia-500'>Guidelines</span></h1>
                         <div className='w-full flex justify-end lg:block'>
                             <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower lg:w-[26px] w-3 lg:h-8 h-[14px]'/>
                         </div>

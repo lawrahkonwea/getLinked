@@ -36,7 +36,7 @@ export default function Faq() {
             <div className='flex flex-col lg:flex-row w-full items-center lg:pl-[13.54%] px-[47px] lg:pr-[6.51%] lg:pt-8 pt-[47px] pb-16' id='faq'>
                 <div className={`${scrollY ? 'animate__slideInUp' : ''} animate__animated flex-1 mt-10`} ref={ref}>
                     <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower lg:w-[26px] w-[18px] lg:h-8 h-[22px] lg:-ml-6 lg:mb-5'/>
-                    <h1 className='lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[253px] text-center lg:text-start'>Frequently Ask <br /><span className='text-secondary'>Question</span></h1>
+                    <h1 className='lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[253px] text-center lg:text-start'>Frequently Ask <br /><span className=' text-fuchsia-500'>Question</span></h1>
                     <h2 className='lg:mt-4 mt-[6px] lg:w-[342px] lg:text-[14px] text-[12px] w-full text-center lg:text-start'>We got answers to the questions that you might want to ask about <span className='font-bold'>getlinked Hackathon 1.0</span></h2>
                     <div className='flex flex-col lg:flex-row lg:gap-12'>
                         <div className='lg:mt-[68px] mt-[45.69px] flex flex-col gap-[13.39px] lg:gap-[25px] lg:w-[427px] w-full'>
