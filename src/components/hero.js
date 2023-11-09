@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navigation from './navigation';
 import HackathonGuy from '../assets/man-wearing-smart-glasses-touching-virtual-screen 1.png';
-import Light from '../assets/vector.png';
+import Light from '../assets/Vector.png';
 import Star from '../assets/star.png';
 import StarOpaque from '../assets/star-opaque.png';
 import Chain from '../assets/chain-9365116-7621444.png';
