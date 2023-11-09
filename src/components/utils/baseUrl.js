@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://backend.getlinked.ai/'
+export const BASE_URL = 'https://backend.getlinked.ai/';

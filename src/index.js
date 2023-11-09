@@ -11,9 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <SnackbarProvider maxSnack={3}>
-    <App />
-    </SnackbarProvider>
+      <SnackbarProvider maxSnack={3}>
+        <App />
+      </SnackbarProvider>
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
