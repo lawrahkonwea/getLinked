@@ -27,7 +27,7 @@ export default function Guidelines() {
                         </div>
                     </div>
                     <div className='lg:mt-4 mt-[9px] flex flex-col lg:flex-row lg:gap-[22px] gap-[15px]'>
-                        <p className='lg:text-[14px] text-[13px] text-center lg:text-start leading-[27.5px]'>
+                        <p className='lg:text-[16px] text-[13px] text-center lg:text-start leading-[27.5px]'>
                             Our tech hackathon is a melting pot of visionaries, and its purpose is as
                             clear as day: to shape the future. Whether you're a coding genius, a 
                             design maverick, or a concept wizard, you'll have the chance to transform 

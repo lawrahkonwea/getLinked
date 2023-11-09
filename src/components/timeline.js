@@ -73,7 +73,7 @@ export default function Timeline() {
 
                             <div className='flex lg:items-center justify-center w-full flex-col-reverse lg:flex-row'>
                                 <div className='flex lg:mr-[86px] lg:w-[35%] lg:justify-end'>
-                                    <p className='text-secondary lg:text-[24px] text-[12px] font-bold'>November 18, 2023</p>
+                                    <p className='text-fuchsia-500 lg:text-[24px] text-[12px] font-bold'>November 18, 2023</p>
                                 </div>
                                 <div className='lg:flex hidden flex-col gap-[11px] items-center flex-1'>
                                     <div className='h-[86px] w-1 bg-secondary'></div>
