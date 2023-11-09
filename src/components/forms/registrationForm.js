@@ -25,7 +25,7 @@ export default function RegistrationForm({ setSuccess, success }) {
       setCategoryList(response.data);
     };
     fetchCategoryList();
-  }, []);
+  }, [GET_CATEGORY_LIST]);
 
   const handleSubmit = async () => {
     console.log({ registrationData });
