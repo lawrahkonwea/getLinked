@@ -1,10 +1,16 @@
 import React, { useEffect } from 'react'
 import { motion } from "framer-motion";
-import Faqs from '../components/Faqs';
-import { Header } from '../components/Header';
-import { Homepage } from '../components/Home';
+import Hero from '../components/hero';
 import { useLocation } from 'react-router-dom';
-// import 'animate.css';
+import Overview from '../components/overview';
+import Guidelines from '../components/guidelines';
+import Criteria from '../components/criteria';
+import Faq from '../components/FAQ';
+import Timeline from '../components/timeline';
+import Prizes from '../components/prizes';
+import Sponsors from '../components/sponsors';
+import Privacy from '../components/privacy';
+import Footer from '../components/footer';
 
 
 const Home = () => {
@@ -27,9 +33,17 @@ const Home = () => {
     transition={{delay: 0.25, type: "spring"}}
     className='landing'
 >
-    <Header />
-    <Homepage />
-    <Faqs />
+  
+    <Hero />
+    <Overview />
+    <Guidelines />
+    <Criteria />
+    <Faq />
+    <Timeline />
+    <Prizes />
+    <Sponsors />
+    <Privacy />
+    <Footer />
      </motion.div>
   )
 }
