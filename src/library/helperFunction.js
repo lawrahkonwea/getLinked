@@ -3,11 +3,11 @@ export function calculateTimeRemaining(targetDate) {
   const timeRemaining = targetDate - currentDate;
 
   if (timeRemaining <= 0) {
-      return {
-          hours: 0,
-          mins: 0,
-          secs: 0,
-      };
+    return {
+      hours: 0,
+      mins: 0,
+      secs: 0,
+    };
   }
 
   const hours = Math.floor(timeRemaining / (1000 * 60 * 60));
@@ -15,12 +15,12 @@ export function calculateTimeRemaining(targetDate) {
   const secs = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
   return {
-      hours,
-      mins,
-      secs,
+    hours,
+    mins,
+    secs,
   };
 }
 
 export function handleNavigation(link) {
-  window.open(link, "_blank");
+  window.open(link, '_blank');
 }

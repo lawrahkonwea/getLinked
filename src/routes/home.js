@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
-import { motion } from "framer-motion";
-import Hero from '../components/hero';
+import React, { useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
+import Hero from '../components/hero';
 import Overview from '../components/overview';
 import Guidelines from '../components/guidelines';
 import Criteria from '../components/criteria';
@@ -12,9 +12,8 @@ import Sponsors from '../components/sponsors';
 import Privacy from '../components/privacy';
 import Footer from '../components/footer';
 
-
 const Home = () => {
-  const location = useLocation()
+  const location = useLocation();
 
   useEffect(() => {
     if (location.hash) {
@@ -27,26 +26,25 @@ const Home = () => {
 
   return (
     <motion.div
-    initial={{opacity: 0, y: 200}}
-    animate={{opacity: 1, y: 0}}
-    exit={{opacity:0, y: 0}}
-    transition={{delay: 0.25, type: "spring"}}
-    className='landing'
->
-  
-    <Hero />
-    <Overview />
-    <Guidelines />
-    <Criteria />
-    <Faq />
-    <Timeline />
-    <Prizes />
-    <Sponsors />
-    <Privacy />
-    <Footer />
-     </motion.div>
-  )
-}
+      initial={{ opacity: 0, y: 200 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 0 }}
+      transition={{ delay: 0.25, type: 'spring' }}
+      className="landing"
+    >
 
+      <Hero />
+      <Overview />
+      <Guidelines />
+      <Criteria />
+      <Faq />
+      <Timeline />
+      <Prizes />
+      <Sponsors />
+      <Privacy />
+      <Footer />
+    </motion.div>
+  );
+};
 
 export default Home;

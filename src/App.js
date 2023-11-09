@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence } from 'framer-motion';
 import './App.css';
 import Home from './routes/home';
 import Contact from './routes/contact';
@@ -16,11 +16,10 @@ export default function App() {
   return (
     <AnimatePresence>
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/contact-us' element={<Contact />} />
-        <Route path='/registration' element={<Registration />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/registration" element={<Registration />} />
       </Routes>
     </AnimatePresence>
-  )
+  );
 }
-
