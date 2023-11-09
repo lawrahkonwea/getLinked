@@ -56,7 +56,7 @@ export default function RegistrationForm({ setSuccess, success }) {
             console.error("Error submitting contact details", error);
             
             if (error.response && error.response.data) {
-                if (error.response.data.email && error.response.data.email[0] === "applicant with this email already exists.") {
+                if (error.response.data.email && error.response.data.email[0] === "email already exists.") {
                     enqueueSnackbar('Email already exists!', {
                         variant: 'error',
                         anchorOrigin: {
@@ -94,8 +94,8 @@ export default function RegistrationForm({ setSuccess, success }) {
     }        
     
     return (
-        <form className='desktop:mt-[33px] mt-[23px] flex flex-col w-full'>
-            <div className='flex desktop:flex-row flex-col desktop:gap-8 gap-[18px] w-full'>
+        <form className='lg:mt-[33px] mt-[23px] flex flex-col w-full'>
+            <div className='flex lg:flex-row flex-col lg:gap-8 gap-[18px] w-full'>
                 <FormInput 
                     placeholder={'Enter the name of your group'} 
                     label={'Team’s Name'} 
@@ -123,7 +123,7 @@ export default function RegistrationForm({ setSuccess, success }) {
                     errorMessage= {validateFields && !registrationData.phone_number}
                 />
             </div>
-            <div className='flex desktop:flex-row flex-col desktop:gap-8 gap-[18px] mt-[29px] w-full'>
+            <div className='flex lg:flex-row flex-col lg:gap-8 gap-[18px] mt-[29px] w-full'>
                 <FormInput 
                     placeholder={'Enter your email address'} 
                     label={'Email'} 
@@ -150,7 +150,7 @@ export default function RegistrationForm({ setSuccess, success }) {
                     errorMessage= {validateFields && !registrationData.project_topic}
                 />
             </div>
-            <div className='flex desktop:gap-8 gap-[19px] mt-[29px] w-full'>
+            <div className='flex lg:gap-8 gap-[19px] mt-[29px] w-full'>
                 <SelectInput 
                     width={'[60%]'}
                     label={'Category'} 
@@ -179,11 +179,11 @@ export default function RegistrationForm({ setSuccess, success }) {
                     errorMessage= {validateFields && !registrationData.category}
                 />
             </div>
-            <p className='desktop:mt-[23px] mt-[15px] desktop:text-[12px] text-[9px] italic text-tertiary desktop:mb-4 mb-3'>Please review your registration details before submitting</p>
-            <div className='flex gap-[10px] items-center desktop:mb-[22px] mb-[14px]'>
+            <p className='lg:mt-[23px] mt-[15px] lg:text-[12px] text-[9px] italic text-tertiary lg:mb-4 mb-3'>Please review your registration details before submitting</p>
+            <div className='flex gap-[10px] items-center lg:mb-[22px] mb-[14px]'>
                 <input 
                     type='checkbox' 
-                    className='desktop:w-[14px] desktop:h-[14px] w-3 h-3' 
+                    className='lg:w-[14px] lg:h-[14px] w-3 h-3' 
                     name='privacy_poclicy_accepted'
                     value={registrationData.privacy_poclicy_accepted} 
                     onChange={(e) => {
@@ -192,12 +192,12 @@ export default function RegistrationForm({ setSuccess, success }) {
                         })
                     }}
                 />
-                <p className='desktop:text-[12px] text-[10px]'>I agreed with the event terms and conditions  and privacy policy</p>
+                <p className='lg:text-[12px] text-[10px]'>I agreed with the event terms and conditions  and privacy policy</p>
             </div>
-            <div className='desktop:hidden'>
+            <div className='lg:hidden'>
                 <Buttons icon={loading && <CircularProgress size={'27px'} style={{ color: "white" }} />} functions={handleSubmit} text={loading ? '' : 'Submit'} width={'100%'} bgColor={'linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%)'} />
             </div>
-            <div className='hidden desktop:flex'>
+            <div className='hidden lg:flex'>
                 <Buttons icon={loading && <CircularProgress size={'27px'} style={{ color: "white" }} />} functions={handleSubmit} text={loading ? '' : 'Register Now'} width={'100%'} bgColor={'linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%)'} />
             </div>
         </form>
