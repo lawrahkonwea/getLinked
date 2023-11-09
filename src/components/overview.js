@@ -37,7 +37,7 @@ export default function Overview() {
                 </div>
                 <div className={`${scrollY ? 'animate__slideInUp' : ''} animate__animated lg:flex-1 lg:ml-[109px] w-full`} ref={ref}>
                     <div className='flex items-center lg:gap-[97px] gap-[18px]'>
-                        <h1 className='lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[420px] w-full text-center lg:text-start'>Introduction to getlinked <br /><span className='text-secondary'>tech Hackathon 1.0</span></h1>
+                        <h1 className='lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[420px] w-full text-center lg:text-start'>Introduction to getlinked <br /><span className='text-fuchsia-500'>tech Hackathon 1.0</span></h1>
                         <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower lg:w-[21px] w-2 lg:h-[25px] h-[10px] absolute right-[16%] mt-[5%]'/>
                     </div>
                     <div className='lg:mt-4 mt-[9px]'>

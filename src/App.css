@@ -90,11 +90,11 @@ body {
 }
 
 .nav-fixed {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.32);
-  backdrop-filter:saturate(250%) blur(40px);
+  backdrop-filter:saturate(180%) blur(20px);
   z-index: 1000;
 }
 

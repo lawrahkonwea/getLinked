@@ -32,7 +32,7 @@ export default function Criteria() {
                     <img src={StarWhite} alt='star' className='animate__animated animate__flash animate__infinite animate__slower w-[26px] h-8 self-end hidden lg:flex'/>
                 </div>
                 <div ref={ref} className={`${scrollY ? 'animate__slideInUp' : ''} animate__animated flex-1 lg:ml-[53px]`}>
-                    <h1 className='lg:text-[32px] text-[20px] text-center lg:text-start font-bold font-clash-display w-full lg:w-[267px]'>Judging Criteria <br /><span className='text-secondary'>Key attributes</span></h1>
+                    <h1 className='lg:text-[32px] text-[20px] text-center lg:text-start font-bold font-clash-display w-full lg:w-[267px]'>Judging Criteria <br /><span className=' text-fuchsia-500'>Key attributes</span></h1>
                     <div className='lg:mt-[21px] mt-4 lg:mb-[55px] mb-10 flex flex-col lg:gap-[22px] gap-5'>
                         <p className='lg:text-[14px] text-center lg:text-start text-[12px]'><span className='font-bold lg:text-[16px] text-[13px] text-tertiary'>Innovation and Creativity:</span> Evaluate the uniqueness and creativity of the
                             solution. Consider whether it addresses a real-world problem in a novel 

@@ -19,7 +19,7 @@ export default function Hero() {
         <div className='section-hero overflow-hidden lg:min-h-[110vh] min-h-auto'>
             <Navigation />
            
-            <div  className="w-full flex justify-end typed-header text-right mt-[31px] lg:text-[36px] text-[16px] italic font-bold"> 'Igniting a Revolution in HR Innovation'</div>   
+            <div  className="w-full flex justify-end typed-header text-right mt-[31px] lg:text-[36px] text-[16px] italic font-bold">'Igniting a Revolution in HR Innovation'</div>   
           
             <div className='flex lg:flex-row flex-col-reverse'>
                 <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower desktop:w-[26px] w-[10px] desktop:h-8 h-3 ml-[182px] desktop:mt-0 mt-[18px]'/>
@@ -32,7 +32,7 @@ export default function Hero() {
                 <div className='lg:ml-[8.4%] lg:mt-10 mt-[14px] lg:absolute'>
                     <h1 className='text-center lg:text-start text-[32px] lg:text-[80px] font-bold font-clash-display heading'>getlinked Te<span>c</span>h</h1>
                     <div className='flex items-center justify-center lg:justify-start -mb-[5px]'>
-                        <h1 className='text-[32px] lg:text-[80px] font-bold font-clash-display'>Hackathon <span className='text-secondary'>1.0</span></h1>
+                        <h1 className='text-[32px] lg:text-[80px] font-bold font-clash-display '>Hackathon <span className='text-fuchsia-500'>1.0</span></h1>
                         <img src={Chain} alt='chain' className='mix-blend-lighten lg:w-fit lg:h-fit w-8 h-8'/>
                         <img src={Flames} alt='flames' className='lg:w-[58px] w-[22.12px] lg:h-[58px] h-[22.12px]'/>
                     </div>

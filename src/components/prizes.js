@@ -39,7 +39,7 @@ export default function Prizes() {
                         <div className='flex'>
                             <div className='w-full'>
                                 <h1 className='text-[20px] font-bold font-clash-display'>Prizes and</h1> 
-                                <span className='text-secondary text-[20px] font-bold font-clash-display mb-[3px]'>Rewards</span>
+                                <span className=' text-fuchsia-500 text-[20px] font-bold font-clash-display mb-[3px]'>Rewards</span>
                             </div>
                             <img src={Star2} alt='star' className='animate__animated animate__flash animate__infinite animate__slower lg:w-[26px] w-[7px] lg:h-8 h-[9px] absolute right-[25%] mt-[5%]'/>
                         </div>
@@ -52,7 +52,7 @@ export default function Prizes() {
                         <div ref={ref2} className={`${scrollX ? 'animate__slideInUp' : ''} animate__animated lg:flex flex-col w-full items-center hidden`}>
                             <div className='w-[401px]'>
                                 <h1 className='text-[32px] font-bold font-clash-display'>Prizes and</h1> 
-                                <span className='text-secondary text-[32px] font-bold font-clash-display mb-5'>Rewards</span>
+                                <span className=' text-fuchsia-500 text-[32px] font-bold font-clash-display mb-5'>Rewards</span>
                             </div>
                             <h2 className='text-[16px] w-[401px] mb-[83px]'>Highlight of the prizes or rewards for winners and for participants.</h2>
                         </div>
@@ -68,7 +68,7 @@ export default function Prizes() {
                                 <div className='mt-[15px] flex items-center flex-col text-center h-full justify-end'>
                                     <p className='lg:text-[36px] text-[12px] font-bold'>2nd</p>
                                     <p className='lg:text-[24px] text-[12px] font-semibold -mt-2'>Runner</p>
-                                    <p className='px-4 lg:text-[32px] text-[14px] font-bold text-secondary lg:-mt-2 mt-0'>N300,000</p>
+                                    <p className='px-4 lg:text-[32px] text-[14px] font-bold  text-fuchsia-500 lg:-mt-2 mt-0'>N300,000</p>
                                 </div>
                             </div>
                             <div className='border border-secondary relative rounded-lg bg-gradient-100 lg:h-[345px] h-[147.3px] -mt-[23px] lg:pb-[33px] pb-[22.5px] lg:w-[212px] w-[90px] flex flex-col items-center'>
@@ -78,7 +78,7 @@ export default function Prizes() {
                                 <div className='mt-[15px] flex items-center flex-col text-center h-full justify-end'>
                                     <p className='lg:text-[36px] text-[12px] font-bold'>1st</p>
                                     <p className='lg:text-[24px] text-[12px] font-semibold -mt-2'>Runner</p>
-                                    <p className='px-4 lg:text-[32px] text-[14px] font-bold text-secondary lg:-mt-2 mt-0'>N400,000</p>
+                                    <p className='px-4 lg:text-[32px] text-[14px] font-bold  text-fuchsia-500 lg:-mt-2 mt-0'>N400,000</p>
                                 </div>
                             </div>
                             <div className='border border-secondary rounded-lg bg-gradient-100 lg:h-[296px] h-[125.6px] lg:pb-[33px] pb-[22.5px] lg:w-[212px] w-[90px] flex flex-col items-center'>
@@ -88,7 +88,7 @@ export default function Prizes() {
                                 <div className='mt-[15px] flex items-center flex-col text-center h-full justify-end'>
                                     <p className='lg:text-[36px] text-[12px] font-bold'>3rd</p>
                                     <p className='lg:text-[24px] text-[12px] font-semibold -mt-2'>Runner</p>
-                                    <p className='px-4 lg:text-[32px] text-[14px] font-bold text-secondary lg:-mt-2 mt-0'>N150,000</p>
+                                    <p className='px-4 lg:text-[32px] text-[14px] font-bold  text-fuchsia-500 lg:-mt-2 mt-0'>N150,000</p>
                                 </div>
                             </div>
                         </div>

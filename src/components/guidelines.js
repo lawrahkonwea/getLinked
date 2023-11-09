@@ -21,13 +21,13 @@ export default function Guidelines() {
             <div className='flex flex-col-reverse lg:flex-row items-center w-full px-12 lg:pl-[11.6%] lg:pr-[6.58%] lg:py-1 pb-[19px]'>
                 <div className={`${scrollY ? 'animate__slideInUp' : ''} animate__animated flex-1 mt-[10px] lg:mt-0`} ref={ref}>
                     <div className='flex flex-col lg:flex-row lg:gap-[88px]'>
-                        <h1 className='text-center lg:text-start lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[170px]'>Rules and <br /><span className='text-secondary'>Guidelines</span></h1>
+                        <h1 className='text-center lg:text-start lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[170px]'>Rules and <br /><span className=' text-fuchsia-500'>Guidelines</span></h1>
                         <div className='w-full flex justify-end lg:block'>
                             <img src={Star} alt='star' className='animate__animated animate__flash animate__infinite animate__slower lg:w-[26px] w-3 lg:h-8 h-[14px]'/>
                         </div>
                     </div>
                     <div className='lg:mt-4 mt-[9px] flex flex-col lg:flex-row lg:gap-[22px] gap-[15px]'>
-                        <p className='lg:text-[14px] text-[13px] text-center lg:text-start leading-[27.5px]'>
+                        <p className='lg:text-[16px] text-[13px] text-center lg:text-start leading-[27.5px]'>
                             Our tech hackathon is a melting pot of visionaries, and its purpose is as
                             clear as day: to shape the future. Whether you're a coding genius, a 
                             design maverick, or a concept wizard, you'll have the chance to transform 

@@ -29,7 +29,7 @@ export default function Privacy() {
             <div className='flex lg:gap-[60px] gap-12 flex-col lg:flex-row hi'>
                 <div ref={ref} className={`${scrollY ? 'animate__slideInUp' : ''} animate__animated flex-1 lg:mt-[60px] mt-5`}>
                     <div className='flex lg:gap-[27px] text-center justify-center lg:text-start lg:justify-start'>
-                        <h1 className='lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[300px]'>Privacy Policy and <br /><span className='text-secondary'>Terms</span></h1>
+                        <h1 className='lg:text-[32px] text-[20px] font-bold font-clash-display lg:w-[300px]'>Privacy Policy and <br /><span className='text-fuchsia-500'>Terms</span></h1>
                         <img src={StarOpaque} alt='star' className='animate__animated animate__flash animate__infinite animate__slower w-[26px] h-8 hidden lg:block'/>
                     </div>
                     <div className='flex justify-between flex-col lg:flex-row items-center lg:items-start'>
@@ -54,7 +54,7 @@ export default function Privacy() {
                             to the practices described in this policy.
                         </p>
                         <div className='lg:pl-[73px] lg:pr-[39px] px-[22px]'>
-                            <h2 className='lg:mt-6 mt-[21px] lg:text-[16px] text-[13px] font-bold text-secondary'>Licensing Policy</h2>
+                            <h2 className='lg:mt-6 mt-[21px] lg:text-[16px] text-[13px] font-bold  text-fuchsia-500'>Licensing Policy</h2>
                             <p className='lg:text-[14px] text-[12px] font-bold'>Here are terms of our Standard License:</p>
                             <div className='lg:mt-[18px] mt-[21px]'>
                                 <div className='flex gap-[14px]'>

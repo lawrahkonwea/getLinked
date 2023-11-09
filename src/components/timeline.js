@@ -48,7 +48,7 @@ export default function Timeline() {
 
                             <div className='flex items-center justify-center w-full flex-col lg:flex-row'>
                                 <div className='flex flex-col lg:gap-3 lg:w-[35%] lg:mr-[86px] w-full'>
-                                    <h2 className='lg:text-right text-secondary lg:text-[24px] text-[12px] font-bold'>Hackathon Announcement</h2>
+                                    <h2 className='lg:text-right text-fuchsia-500 lg:text-[24px] text-[12px] font-bold'>Hackathon Announcement</h2>
                                     <p className='lg:text-right lg:text-[14px] text-[12px]'>The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register</p>
                                 </div>
                                 <div className='lg:flex hidden flex-col gap-[11px] items-center -mt-[90px] flex-1'>
@@ -73,7 +73,7 @@ export default function Timeline() {
 
                             <div className='flex lg:items-center justify-center w-full flex-col-reverse lg:flex-row'>
                                 <div className='flex lg:mr-[86px] lg:w-[35%] lg:justify-end'>
-                                    <p className='text-secondary lg:text-[24px] text-[12px] font-bold'>November 18, 2023</p>
+                                    <p className='text-fuchsia-500 lg:text-[24px] text-[12px] font-bold'>November 18, 2023</p>
                                 </div>
                                 <div className='lg:flex hidden flex-col gap-[11px] items-center flex-1'>
                                     <div className='h-[86px] w-1 bg-secondary'></div>
@@ -82,7 +82,7 @@ export default function Timeline() {
                                     </div>
                                 </div>
                                 <div className='flex flex-col gap-3 lg:w-[35%] lg:ml-[98px]'>
-                                    <h2 className='text-left text-secondary lg:text-[24px] text-[12px] font-bold'>Teams Registration begins</h2>
+                                    <h2 className='text-left text-fuchsia-500 lg:text-[24px] text-[12px] font-bold'>Teams Registration begins</h2>
                                     <p className='text-left lg:text-[16px] text-[12px]'>Interested teams can now show their interest in the getlinked tech hackathon 1.0 2023 by proceeding to register</p>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ export default function Timeline() {
 
                             <div className='flex items-center justify-center w-full flex-col lg:flex-row'>
                                 <div className='flex flex-col lg:gap-3 lg:w-[35%] lg:mr-[86px] w-full'>
-                                    <h2 className='lg:text-right text-secondary lg:text-[24px] text-[12px] font-bold'>Teams Registration ends</h2>
+                                    <h2 className='lg:text-right text-fuchsia-500 lg:text-[24px] text-[12px] font-bold'>Teams Registration ends</h2>
                                     <p className='lg:text-right lg:text-[14px] text-[12px]'>Interested Participants are no longer Allowed to register</p>
                                 </div>
                                 <div className='lg:flex hidden flex-col gap-[11px] items-center flex-1'>
@@ -133,7 +133,7 @@ export default function Timeline() {
                                     </div>
                                 </div>
                                 <div className='flex flex-col gap-3 lg:w-[35%] lg:ml-[98px]'>
-                                    <h2 className='text-left text-secondary lg:text-[24px] text-[12px] font-bold'>Announcement of the accepted teams and ideas</h2>
+                                    <h2 className='text-left text-fuchsia-500 lg:text-[24px] text-[12px] font-bold'>Announcement of the accepted teams and ideas</h2>
                                     <p className='text-left lg:text-[16px] text-[12px]'>All teams whom idea has been accepted into getlinked tech hackathon 1.0 2023 are formally announced</p>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@ export default function Timeline() {
 
                             <div className='flex items-center justify-center w-full flex-col lg:flex-row'>
                                 <div className='flex flex-col lg:gap-3 lg:w-[35%] lg:mr-[86px] w-full'>
-                                    <h2 className='lg:text-right text-secondary lg:text-[24px] text-[12px] font-bold'>Getlinked Hackathon 1.0 Offically Begins</h2>
+                                    <h2 className='lg:text-right text-fuchsia-500 lg:text-[24px] text-[12px] font-bold'>Getlinked Hackathon 1.0 Offically Begins</h2>
                                     <p className='lg:text-right lg:text-[14px] text-[12px]'>Accepted teams can now proceed to build their ground breaking skill driven solutions</p>
                                 </div>
                                 <div className='lg:flex hidden flex-col gap-[11px] items-center flex-1'>
@@ -183,7 +183,7 @@ export default function Timeline() {
                                     </div>
                                 </div>
                                 <div className='flex flex-col gap-3 lg:w-[35%] lg:ml-[98px]'>
-                                    <h2 className='text-left text-secondary lg:text-[24px] text-[12px] font-bold'>Demo Day</h2>
+                                    <h2 className='text-left text-fuchsia-500 lg:text-[24px] text-[12px] font-bold'>Demo Day</h2>
                                     <p className='text-left lg:text-[16px] text-[12px]'>Teams get the opportunity to pitch their projects to judges. The winner of the hackathon will also be announced on this day</p>
                                 </div>
                             </div>
